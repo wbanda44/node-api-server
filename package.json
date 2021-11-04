@@ -1,0 +1,31 @@
+{
+  "name": "node-api-server",
+  "version": "1.0.0",
+  "description": "server to hide api key",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbanda44"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "wilson banda",
+  "license": "MIT",
+  "dependencies": {
+    "apicache": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "needle": "^2.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
